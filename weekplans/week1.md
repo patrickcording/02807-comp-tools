@@ -61,7 +61,7 @@ At DTU you have access to a GitLab installation using your DTU credentials. In t
 
 - Install Git on your computer
 - Go to [https://gitlab.gbar.dtu.dk](https://gitlab.gbar.dtu.dk) to set up a Git repository
-- Go to your `work` and initialize it as a Git repository (use `git init`)
+- Go to your `work` directory and initialize it as a Git repository (use `git init`)
 - Add a dummy file and add it to your repository (use `touch`, `git add`)
 - Set your GitLab repository as remote and push your files (see [this](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line)) 
 - Use this setup to play around and familiarize yourself with Git
