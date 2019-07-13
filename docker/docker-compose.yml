@@ -1,0 +1,31 @@
+version: "3"
+services:
+  notebook:
+    ports:
+      - "8888:8888"
+    links:
+      - mongodb
+      - mysql
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./work:/home/jovyan/work
+    build: .
+    
+  mongodb:
+    image: "mongo:latest"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+    ports:
+      - "27017:27017"
+    restart: always
+    
+  mysql:
+    image: "mysql:latest"
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    #ports:
+    #  - "27017:27017"
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
