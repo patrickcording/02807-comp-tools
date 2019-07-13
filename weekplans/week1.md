@@ -64,5 +64,6 @@ At DTU you have access to a GitLab installation using your DTU credentials. In t
 - Go to your `work` and initialize it as a Git repository (use `git init`)
 - Add a dummy file and add it to your repository (use `touch`, `git add`)
 - Set your GitLab repository as remote and push your files (see [this](https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line)) 
+- Use this setup to play around and familiarize yourself with Git
 
 If you use this repository for tracking your work you will be able to roll back to old versions of your notebooks and work on them from other computers (using `clone`, `commit`, `push`).
