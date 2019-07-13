@@ -12,9 +12,9 @@ _This assumes that you are familiar with using a shell on whatever operating sys
 - [Installing Docker on Windows](https://runnable.com/docker/install-docker-on-windows-10)
 
 ### Running the container
-Download the [Dockerfile](../docker/Dockerfile) and [docker-compose.yaml](docker-compose.yaml) and place them in the same directory.
+Download the [Dockerfile](../docker/Dockerfile) and [docker-compose.yml](../docker/docker-compose.yml) and place them in the same directory.
 
-Create a subdirectory named workspace in the same directory.
+Create a subdirectory named `work` in the same directory.
 
 Open a shell, change directory to your directory, and write
 
