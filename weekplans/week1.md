@@ -26,8 +26,6 @@ We have compiled a Docker image that contains Python, Jupyter, Spark, and all th
 
 Please follow the below instructions for installing Docker and getting the Docker container up and running.
 
-_This assumes that you are familiar with using a shell on whatever operating system you are using. If not, please spend some time familiarizing yourself with [the basics](http://swcarpentry.github.io/shell-novice/)._ 
-
 #### Installing Docker
 - [Installing Docker on Linux](https://runnable.com/docker/install-docker-on-linux)
 - [Installing Docker on macOS](https://runnable.com/docker/install-docker-on-macos)
