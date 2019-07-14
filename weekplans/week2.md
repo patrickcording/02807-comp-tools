@@ -20,4 +20,10 @@ From [Introduction to Programming in Python](https://introcs.cs.princeton.edu/py
 - 2.3.17 (2.3.C3)*
 - 3.2.1 (without the draw function), 3.2.5*, 3.2.7
 
+### Predict survival on the Titanic
+Download the data for the [Titanic](https://www.kaggle.com/c/titanic/overview) case on Kaggle and use Jupyter to prepare it for modelling. LINK TO DATA
+
+If you are stuck:
+- Revisit the [notebook](../docker/work/Week 2.ipynb) presented in the lecture
+- Explore [this](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/kaggle/titanic.ipynb) (try for yourself before trying this!)
 

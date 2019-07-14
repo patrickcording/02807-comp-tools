@@ -52,6 +52,8 @@ jovyan@1c057f7e8119:~$
 
 This means that you have started the required Docker containers and you are logged in to the one that contains Jupyter (and other things).
 
+You may log out by issuing `exit` and stop the containers with `docker-compose down`.
+
 If you don't delete the images, starting the containers will be a lot faster the next time you do this.
 
 ### Exercise 6 (setting up a Git repository for your work)
