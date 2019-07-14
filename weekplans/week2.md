@@ -23,7 +23,5 @@ From [Introduction to Programming in Python](https://introcs.cs.princeton.edu/py
 ### Predict survival on the Titanic
 Download the data for the [Titanic](https://www.kaggle.com/c/titanic/overview) case on Kaggle and use Jupyter to prepare it for modelling. LINK TO DATA
 
-If you are stuck:
-- Revisit the [notebook](../docker/work/Week 2.ipynb) presented in the lecture
-- Explore [this](https://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/kaggle/titanic.ipynb) (try for yourself before trying this!)
+Next week you will train a model with your data. 
 
