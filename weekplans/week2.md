@@ -20,8 +20,12 @@ From [Introduction to Programming in Python](https://introcs.cs.princeton.edu/py
 - 2.3.17 (2.3.C3)*
 - 3.2.1 (without the draw function), 3.2.5*, 3.2.7
 
-### Predict survival on the Titanic
-Download the data for the [Titanic](https://www.kaggle.com/c/titanic/overview) case on Kaggle and use Jupyter to prepare it for modelling. LINK TO DATA
+### Predicting survival on the Titanic
+Download the [training data](https://github.com/patrickcording/02807-comp-tools/blob/master/docker/work/data/titanic_training.csv) for the [Titanic](https://www.kaggle.com/c/titanic/overview) case on Kaggle and use Jupyter for exploring it and preparing it for training of a model. 
 
-Next week you will train a model with your data. 
+You should make sure that you understand the data. Read the description on Kaggle carefully. 
+
+Next, explore the data. You can ask yourself questions like: which features are more likely to influence a passengers chance of survival? How will you investigate this?  
+
+Next week you will train a model with your data, so you should also prepare your data for modelling. 
 
