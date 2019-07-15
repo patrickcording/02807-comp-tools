@@ -27,5 +27,10 @@ You should make sure that you understand the data. Read the description on Kaggl
 
 Next, explore the data. You can ask yourself questions like: which features are more likely to influence a passengers chance of survival? How will you investigate this?  
 
-Next week you will train a model with your data, so you should also prepare your data for modelling. 
+Next week you will train a model with your data, so you should also prepare your data for modelling. You should consider the following:
+- Do features have the correct data types?
+- How will you handle missing values?
+- Are there features you should not include?
+- Is cleaning needed for any of the features?
+- Can you think of other feature engineering that might have an impact? (hint: cabin number)
 
