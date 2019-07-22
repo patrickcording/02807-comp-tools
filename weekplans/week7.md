@@ -6,17 +6,18 @@
 ## Exercises
 ### Exercise 1
 Given the numbers 1 to 20, what is the probability of getting each of the following samples with Simple Random Sampling for _k_=5.
-a) 1,5,9,13,17
-b) 1,2,3,4,5
-c) 5,2,13,8,20
-d) 3,5,6,10,11,19
+
+1. 1,5,9,13,17
+2. 1,2,3,4,5
+3. 5,2,13,8,20
+4. 3,5,6,10,11,19
 
 ### Exercise 2: Reservoir sampling
-a) Implement reservoir sampling in Python.
+1. Implement reservoir sampling in Python.
 
 For this exercise you may assume that a Python list is your stream. Just make sure that your algorithm does not make more than one pass over the list and that it is not using random access to the list.
 
-b) Imagine that you have been sampling from two streams, and now have two reservoirs of size _k_. Describe a way to combine these two to obtain a sample of size _k_. 
+2. Imagine that you have been sampling from two streams, and now have two reservoirs of size _k_. Describe a way to combine these two to obtain a sample of size _k_. 
 
 ### Exercise 3: Stratified sampling
 [Stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling) is a useful method for ensuring the ratio between subpopulations when doing random sampling.
@@ -32,9 +33,9 @@ stream
 
 Solve the following exercises.
 
-a) What does the snippet do?
-b) Run your reservoir sampling algorithm from exercise 2 some times for the stream and count the number of males and females in the results. Is it consistent?
-c) Extend your algorithm to do stratified random sampling.
+1. What does the snippet do?
+2. Run your reservoir sampling algorithm from exercise 2 some times for the stream and count the number of males and females in the results. Is it consistent?
+3. Extend your algorithm to do stratified random sampling.
 
 ### Exercise 4: Distributed sampling
 ...
