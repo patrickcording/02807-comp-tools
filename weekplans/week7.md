@@ -7,10 +7,10 @@
 ### Exercise 1
 Given the numbers 1 to 20, what is the probability of getting each of the following samples with Simple Random Sampling for _k_=5.
 
-1. 1,5,9,13,17
-2. 1,2,3,4,5
-3. 5,2,13,8,20
-4. 3,5,6,10,11,19
+a. 1,5,9,13,17
+b. 1,2,3,4,5
+c. 5,2,13,8,20
+d. 3,5,6,10,11,19
 
 ### Exercise 2: Reservoir sampling
 1. Implement reservoir sampling in Python.
