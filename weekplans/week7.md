@@ -19,6 +19,8 @@ For this exercise you may assume that a Python list is your stream. Just make su
 
 - Imagine that you have been sampling from two streams, and now have two reservoirs of size _k_. Describe a way to combine these two to obtain a sample of size _k_. 
 
+- Prove that the main property of simple random sampling is satisfied by reservoir sampling.
+
 ### Exercise 3: Stratified sampling
 [Stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling) is a useful method for ensuring the ratio between subpopulations when doing random sampling.
 
