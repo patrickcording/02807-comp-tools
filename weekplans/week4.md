@@ -1,5 +1,5 @@
 # Week 4
-You may solve todays exercises in Jupyter. If you have started the Docker containers as described [here](https://github.com/patrickcording/02807-comp-tools/blob/master/weekplans/week1.md#running-the-container), you already have a MySQL server running in a container. [This notebook](https://github.com/patrickcording/02807-comp-tools/blob/master/docker/work/MySQL%20connection%20example.ipynb) shows you how to connect to the server.
+You may solve todays exercises in Jupyter. [This notebook](https://github.com/patrickcording/02807-comp-tools/blob/master/docker/work/SQLite%20connection%20example.ipynb) shows how to use SQLite from Python.
 
 ## Exercises
 ### Exercise 1: Your first database
