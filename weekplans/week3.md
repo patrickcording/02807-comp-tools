@@ -9,6 +9,11 @@
 
 ## Exercises
 ### Exercise 1: Getting data from an API
+In this exercise you should graph the exchange rates over time for one or more currencies of your choice versus for example the dollar.
+
+- Use the [foreign exchange rates API](https://exchangeratesapi.io) to get exchange rates for a period.
+- Load the data into Pandas and prepare it for plotting.
+- Use matplotlib to show the exchange rate over time.
 
 ### Exercise 2: Creating a crawler
 
@@ -28,3 +33,9 @@ _For inspiration, you may look at how [others](https://www.kaggle.com/c/titanic/
 
 ### Exercise 5: Python brush-up
 Continue solving the Python exercises from last week. 
+
+## More fun with APIs
+There is a vast number of APIs for you to explore. [This list](https://github.com/public-apis/public-apis) is a good starting point if you are looking for inspiration. It has not been update for a while, but many of the links are still valid.
+
+In Denmark, a lot of data has been made publicly available. For example, [Danmarks Adressers Web API](https://dawa.aws.dk/) lets you search and retrieve information about all addresses in Denmark. Unfortunately, both documentation and the actual API responses are in danish. Danmarks Statistik is also [exposing their data through a public API](https://www.dst.dk/da/Statistik/statistikbanken/api).
+
