@@ -5,6 +5,8 @@ RUN apt-get update && sudo apt-get -y install textql mysql-client git-all less v
 RUN pip install csvkit
 RUN pip install datarobot-ai
 RUN pip install mysql-connector-python
+RUN pip install pympler
+RUN pip install mmh3
 RUN apt-get install -y sqlite3 libsqlite3-dev
 
 USER $NB_USER
