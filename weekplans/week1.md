@@ -8,20 +8,25 @@ Git
 - [Getting started](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
 - [Collaborating](https://www.atlassian.com/git/tutorials/syncing)
 
+## Introduction survey
+If you didn't fill it out during the lecture, please take 2 minutes and answer the [introduction survey](https://forms.gle/PvCSxAmFKg5HWvLd9).
+
 ## Exercises
 ### Exercise 1
-First download `binary_classification.csv`. Find out where the data is from and what the target column is.
+Download [this](https://raw.githubusercontent.com/patrickcording/02807-comp-tools/master/docker/work/data/access.log-sample) webserver access log and use command-line tools to count the number of unique IP addresses seen.
+
+Can you achieve it in a one-liner?
 
 ### Exercise 2
-Use command line tools to count the number of instances (rows) of the majority and minority class of `binary_classification.csv`.
+Download the [Lending Club](https://s3.amazonaws.com/datarobot_public_datasets/10K_Lending_Club_Loans.csv) dataset shown in the lecture.
 
-### Exercise 3
-Use command line tools to create a new CSV file that contains as many rows from the majority class as there are rows in the minority class.
+Use command line tools to solve the following exercises.
 
-### Exercise 4
-Use command line tools to sample 100 rows randomly from `binary_classification.csv`.
+- Determine how many columns the dataset has
+- Count the number of rows where `is_bad` is true and `is_bad` is false
+- Sample 1000 rows from the dataset using [stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling)
 
-### Exercise 5 (preparation for next time)
+### Exercise 3 (preparation for next time)
 We have compiled a Docker image that contains Python, Jupyter, Spark, and all the packages that you need for the course. 
 
 Please follow the below instructions for installing Docker and getting the Docker container up and running.
@@ -47,7 +52,7 @@ The required images are now being downloaded and built, and two Docker container
 You should now see a shell-prompt looking something like this
 
 ```
-jovyan@1c057f7e8119:~$
+jovyan@notebook-server:~$
 ```
 
 This means that you have started the required Docker containers and you are logged in to the one that contains Jupyter (and other things).
@@ -56,7 +61,7 @@ You may log out by issuing `exit` and stop the containers with `docker-compose d
 
 If you don't delete the images, starting the containers will be a lot faster the next time you do this.
 
-### Exercise 6 (setting up a Git repository for your work)
+### Exercise 4 (setting up a Git repository for your work)
 At DTU you have access to a GitLab installation using your DTU credentials. In this exercise you will set up a repository for keeping your Jupyter notebooks under version control.
 
 - Install Git on your computer
