@@ -23,8 +23,8 @@ Download the [Titanic](https://raw.githubusercontent.com/patrickcording/02807-co
 Use command line tools to solve the following exercises.
 
 - Determine how many columns the dataset has
-- Count the number of rows where `is_bad` is true and `is_bad` is false
-- Sample 1000 rows from the dataset using such that the ratio between true and false occurrences of `is_bad`
+- Count the number of rows where `survived` is true and `survived` is false
+- Sample 100 rows from the dataset such that the ratio between true and false occurrences of `survived` is the same
 
 ### Exercise 3 (preparation for next time)
 We have compiled a Docker image that contains Python, Jupyter, Spark, and all the packages that you need for the course. 
