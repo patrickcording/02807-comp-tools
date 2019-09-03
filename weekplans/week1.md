@@ -18,13 +18,13 @@ Download [this](https://raw.githubusercontent.com/patrickcording/02807-comp-tool
 Can you achieve it in a one-liner?
 
 ### Exercise 2
-Download the [Lending Club](https://s3.amazonaws.com/datarobot_public_datasets/10K_Lending_Club_Loans.csv) dataset shown in the lecture.
+Download the [Titanic](https://raw.githubusercontent.com/patrickcording/02807-comp-tools/demo/docker/work/data/titanic.csv) dataset.
 
 Use command line tools to solve the following exercises.
 
 - Determine how many columns the dataset has
 - Count the number of rows where `is_bad` is true and `is_bad` is false
-- Sample 1000 rows from the dataset using [stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling)
+- Sample 1000 rows from the dataset using such that the ratio between true and false occurrences of `is_bad`
 
 ### Exercise 3 (preparation for next time)
 We have compiled a Docker image that contains Python, Jupyter, Spark, and all the packages that you need for the course. 
