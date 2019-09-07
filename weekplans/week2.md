@@ -22,8 +22,8 @@ Note: Many of the exercises are asking you to read input from the command line. 
 In this exercise you will be working on creating a model for predicting whether a passenger on [RMS Titanic](https://en.wikipedia.org/wiki/RMS_Titanic) would survive the well-known fate of the ship. The case is taken from [Kaggle](http://kaggle.com), a website hosting machine learning competitions. The Titanic competition is known for being an entry level Kaggle competition and its wide use as an introduction to machine learning.
 
 The exercise is two-fold:
-- This week you will explore and prepare the data
-- Next week you will use scikit-learn to train a model 
+- Part 1: This week you will explore and prepare the data
+- Part 2: Next week you will use scikit-learn to train a model 
 
 The case is called [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic) on Kaggle (you may need to sign up, but it is free!). If you sign up, you will also have access to other notebooks. You should not hesitate exploring these and learn from others.
 
