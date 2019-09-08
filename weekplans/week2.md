@@ -30,7 +30,7 @@ The case is called [Titanic: Machine Learning from Disaster](https://www.kaggle.
 You should use **Jupyter** to solve the exercise!
 
 #### Part 1
-- Download the [training data](https://github.com/patrickcording/02807-comp-tools/blob/master/docker/work/data/titanic.csv) 
+- Download the [training data](https://raw.githubusercontent.com/patrickcording/02807-comp-tools/master/docker/work/data/titanic.csv) 
 
 - Read the case description on Kaggle and look at the data. Make sure you understand the features of the data.
 
