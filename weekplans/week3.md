@@ -15,7 +15,7 @@ In this exercise you should graph the exchange rates over time for one or more c
 - Use matplotlib to show the exchange rate over time.
 
 ### Exercise 2: Searching Flickr
-In this exercise you should write a function that uses the [Flickr Public Feed API](https://www.flickr.com/services/feeds/docs/photos_public/) to find and display photos. This allows you to search for photos by author and tags.
+In this exercise you should write a function that uses the [Flickr Public Feed API](https://www.flickr.com/services/feeds/docs/photos_public/) to find and display photos. This API allows you to search for photos by author and tags.
 
 - Write a function that takes a tag as input, sends a request to the API, and prints the response in JSON format. Familiarize yourself with the structure of the response.
 - Extend your function to display the resulting images in your notebook. _Hint: to display images you can use the display library in IPython as follows._
