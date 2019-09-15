@@ -41,5 +41,5 @@ You should use **Jupyter** to solve the exercise!
     + How will you handle missing values?
     + Are there features you should not include?
     + Is cleaning needed for any of the features?
-    + Can you think of any other feature engineering that might have an impact? (hint: cabin number)
+    + Can you think of any other feature engineering that might have an impact? 
 
