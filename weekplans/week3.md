@@ -47,6 +47,11 @@ You should use scikit-learn to train a model. Pick at least 5 models, train them
 
 You should use scikit-learn to compare the models that you have trained. You should also pick a model and use scikit-learn to extract the importance of the features in your data to the model. 
 
+#### What's next?
+Once you have build a model you can use it to make predictions. To see your model in action you can download the unlabeled test data from Kaggle (see the [Titanic case](https://www.kaggle.com/c/titanic/) on Kaggle).
+
+If you want to know how well you did, you can create a Kaggle account and submit the predictions you made on the test data.
+
 ## More fun with APIs
 There is a vast number of APIs for you to explore. [This list](https://github.com/public-apis/public-apis) is a good starting point if you are looking for inspiration. It has not been update for a while, but many of the links are still valid.
 
