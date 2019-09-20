@@ -1,6 +1,8 @@
 # Week 4
 ## Reading
-TBA
+- [SQLite](https://www.sqlite.org/index.html)
+- If you like reading a lot: [SQL Queries for Mere Mortals](https://www.google.com/search?ei=xpOEXeTCD4Kc_QbE5Y3oBg&q=sql+queries+for+mere+mortals+PDF&oq=sql+queries+for+mere+mortals+PDF&gs_l=psy-ab.3..0i71l8.0.0..4877...0.2..0.0.0.......0......gws-wiz.eUC5Vk5x3no&ved=0ahUKEwjkve--g9_kAhUCTt8KHcRyA20Q4dUDCAs&uact=5), John L. Viescas & Michael J. Hernandez
+- If you want something more hands-on: [Introduction to SQL on W3Schools](https://www.w3schools.com/sql/sql_intro.asp)
 
 ## Exercises
 You Should solve todays exercises in Jupyter. [This notebook](https://github.com/patrickcording/02807-comp-tools/blob/master/docker/work/SQLite%20connection%20example.ipynb) shows how to use SQLite from Python.
