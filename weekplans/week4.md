@@ -5,7 +5,7 @@
 - If you want something more hands-on: [Introduction to SQL on W3Schools](https://www.w3schools.com/sql/sql_intro.asp)
 
 ## Exercises
-You Should solve todays exercises in Jupyter. [This notebook](https://github.com/patrickcording/02807-comp-tools/blob/master/docker/work/SQLite%20connection%20example.ipynb) shows how to use SQLite from Python.
+You may solve todays exercises in Jupyter. [This notebook](https://github.com/patrickcording/02807-comp-tools/blob/master/docker/work/SQLite%20connection%20example.ipynb) shows how to use SQLite from Python.
 
 ### Exercise 1: Your first database
 - Create a new database.
