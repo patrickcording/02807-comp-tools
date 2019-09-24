@@ -36,7 +36,7 @@ Solve the following exercises in Python.
 - Insert rows in the measurements table such that it has a least 1.000.000 rows.
 - Construct a SELECT query that returns all measurements for a given sensor_id in a given time period (i.e. where time is between a given start and end value). Ensure you query returns around 100 rows by picking appropriate
 values for sensor_id, start and end.
-- Measure how long time it takes to run the query (if it is too fast to measure, insert extra rows in the table). Hint: In Juptyer, you can write `%time` in the beginning of the cell, and it will output the execution time for the code in the cell.
+- Measure how long time it takes to run the query (if it is too fast to measure, insert extra rows in the table). Hint: In Jupyter, you can write `%time` in the beginning of the cell, and it will output the execution time for the code in the cell.
 - Create an index on the sensor_id column and see if it speeds up the query. You could also try to create an index on time, and the combination of sensor_id and time. Which one gives the best performance? Remember to delete the previous index before testing a new one (otherwise it is difficult to know which one is being used by the database).
 
 ### Exercise 4: Joins
