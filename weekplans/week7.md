@@ -52,13 +52,13 @@ The majority algorithm reports if an element occurs more than half of the time, 
 - Suppose you know that the number of distinct elements in the stream is $D$. What happens to the space usage of your algorithm if you set $x=D$?
 
 ### Exercise 6: Another proof for reservoir sampling
-In the lecture we saw that the probability of element number ![equation](https://latex.codecogs.com/gif.latex?i) being in the reservoir at the end of a stream of length $m$ is
+In the lecture we saw that the probability of element number ![equation](https://latex.codecogs.com/gif.latex?i) being in the reservoir at the end of a stream of length ![equation](https://latex.codecogs.com/gif.latex?m) is
 
 ![equation](https://latex.codecogs.com/gif.latex?P[\text{i%20is%20in%20R}]%20=%20\frac%20k%20i%20\cdot%20\prod_{j=i+1}^m%20(\frac%20k%20j%20\cdot%20\frac{k-1}{k}+%20(1-\frac%20k%20j))%20=%20\frac%20k%20m)
 
-The fact that the probability is $\frac k m$ for all $i$ can also be proved by induction. This proof avoids having to simplify a product sequence (which is tedious to type into a calculator, and even more so to solve by hand).
+The fact that the probability is ![equation](https://latex.codecogs.com/gif.latex?\frac%20k%20m) for all ![equation](https://latex.codecogs.com/gif.latex?i) can also be proved by induction. This proof avoids having to simplify a product sequence (which is tedious to type into a calculator, and even more so to solve by hand).
 
-Prove that probability of selecting an element for a sample of size $k$ in a stream of size $m$ is $\frac k m$.
+Prove that probability of selecting an element for a sample of size ![equation](https://latex.codecogs.com/gif.latex?k) in a stream of size ![equation](https://latex.codecogs.com/gif.latex?m) is ![equation](https://latex.codecogs.com/gif.latex?\frac%20k%20m).
 
-Hint: For the base case, you should assume that $k=m=1$.
+Hint: For the base case, you should assume that ![equation](https://latex.codecogs.com/gif.latex?k=m=1).
 
