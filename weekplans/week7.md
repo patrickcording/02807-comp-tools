@@ -1,0 +1,66 @@
+# Week 7
+## Reading
+- [Mining of Massive Datasets, Chapter 4](http://infolab.stanford.edu/~ullman/mmds/ch4.pdf) (Section 4.1).
+- [Boyer–Moore majority vote algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm).
+- [Scalable Simple Random Sampling and Stratified Sampling](http://proceedings.mlr.press/v28/meng13a.pdf) (Section 1 and 2), X. Meng.
+
+## Exercises
+### Exercise 1: Reservoir sampling
+Implement reservoir sampling in Python.
+
+You may assume that a Python list or generator is your stream. Just make sure that your algorithm does not make more than one pass over the list and that it is not using random access to the list.
+
+### Exercise 2: Finding the majority element in a file
+In this exercise you should find the majority element in a remote file. The file contains one element per line, and the elements are 8-character strings. You should assume that the file is to big to download and store on your local disk.
+
+The file is `https://02807-comp-tools.s3.us-east-2.amazonaws.com/majority`.
+
+You can read a remote file line-by-line using the following snippet.
+
+```python
+import urllib
+with urllib.request.urlopen('https://02807-comp-tools.s3.us-east-2.amazonaws.com/majority') as f:
+    for line in f:
+        element = str(line.rstrip())
+        # Do something with the element
+```
+
+- Implement the majority algorithm and run it for the file to determine if there is a majority element. Tip: When developing the algorithm and you want to test it, you can limit the number of lines that you read from the file, so that you don't need to wait for reaching the end of the stream for each test.
+
+In the lecture you were told that if the algorithm returns element `e`, it either holds that `e` is the majority element or there isn't a majority element.
+
+- Modify your algorithm so that it always returns the majority element or `None`. Hint: A file stream may be read multiple times.
+
+### Exercise 3: Stratified sampling
+[Stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling) is a useful method for ensuring a representative ratio between subpopulations when doing random sampling. A random sample may not be representative of the population. 
+
+For example, suppose you want to conduct a study to find the answer to the question "Are men or women better drivers?" in the general public. Due to limited time and resources you can only survey students on the campus of DTU. 
+You draw a sample using simple random sampling and conclude that approximately 65% of the population thinks that men are better drivers. 
+
+What went wrong? The ratio between men and women at DTU does not reflect the general population (see eg. [this editorial](https://www.dtu.dk/english/About/ORGANIZATION/OFFICE-of-the-PRESIDENT/Editorials/June-2018)). 
+
+In this exercise you should use reservoir sampling to do stratified sampling on a stream. You may extend the implementation of reservoir sampling from exercise 1.
+
+### Exercise 4: Composing reservoirs
+Imagine that you have been sampling from two streams using reservoir sampling, and now have two reservoirs of size $k$. You have seen $n_1$ elements from the first stream and $n_2$ elements from the second stream. Describe a way to combine these two to obtain a sample of size $k$, where every element was sampled with probability $k/(n_1+n_2)$.
+
+### Exercise 5: Extending the majority algorithm
+The majority algorithm reports if an element occurs more than half of the time, but sometimes you want "majority" to mean more than $1/x$ times (for $x>2$).
+
+- Modify the majority algorithm to be able to find if an element occurs more than $1/x$ times. You can start by finding an algorithm for $x=3$ and then try to generalize it afterwards. You don't have to implement your solution, just describe the algorithm.
+
+- Suppose you know that the number of distinct elements in the stream is $D$. What happens to the space usage of your algorithm if you set $x=D$?
+
+### Exercise 6: Another proof for reservoir sampling
+In the lecture we saw that the probability of element number $i$ being in the reservoir at the end of a stream of length $m$ is
+
+$$
+P[\text{i is in R}] = \frac k i \cdot \prod_{j=i+1}^m (\frac k j \cdot \frac{k-1}{k}+ (1-\frac k j)) = \frac k m
+$$
+
+The fact that the probability is $\frac k m$ for all $i$ can also be proved by induction. This proof avoids having to simplify a product sequence (which is tedious to type into a calculator, and even more so to solve by hand).
+
+Prove that probability of selecting an element for a sample of size $k$ in a stream of size $m$ is $\frac k m$.
+
+Hint: For the base case, you should assume that $k=m=1$.
+
