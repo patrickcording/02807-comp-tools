@@ -41,6 +41,20 @@ What went wrong? The ratio between men and women at DTU does not reflect the gen
 
 In this exercise you should use reservoir sampling to do stratified sampling on a stream. You may extend the implementation of reservoir sampling from exercise 1.
 
+You may use the following generator function to generate data. It generates a stream of survey answers where about 65% of the answers are from males and most of the participants say that their own gender are the better drivers.
+
+```python
+import random
+def survey_answers():
+    while True:
+        gender = 1 if random.random() < 0.65 else 0
+        answer = gender if random.random() < 0.98 else abs(gender-1)
+        yield {
+            'gender': gender,
+            'answer': answer
+        }
+```
+
 ### Exercise 4: Composing reservoirs
 Imagine that you have been sampling from two streams using reservoir sampling, and now have two reservoirs of size ![equation](https://latex.codecogs.com/gif.latex?k). You have seen ![equation](https://latex.codecogs.com/gif.latex?n_1) elements from the first stream and ![equation](https://latex.codecogs.com/gif.latex?n_2) elements from the second stream. Describe a way to combine the two reservoirs to obtain a sample of size ![equation](https://latex.codecogs.com/gif.latex?k), where every element was sampled with probability ![equation](https://latex.codecogs.com/gif.latex?k/(n_1+n_2)).
 
