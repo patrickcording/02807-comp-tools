@@ -42,14 +42,14 @@ What went wrong? The ratio between men and women at DTU does not reflect the gen
 In this exercise you should use reservoir sampling to do stratified sampling on a stream. You may extend the implementation of reservoir sampling from exercise 1.
 
 ### Exercise 4: Composing reservoirs
-Imagine that you have been sampling from two streams using reservoir sampling, and now have two reservoirs of size $k$. You have seen $n_1$ elements from the first stream and $n_2$ elements from the second stream. Describe a way to combine these two to obtain a sample of size $k$, where every element was sampled with probability $k/(n_1+n_2)$.
+Imagine that you have been sampling from two streams using reservoir sampling, and now have two reservoirs of size ![equation](https://latex.codecogs.com/gif.latex?k). You have seen ![equation](https://latex.codecogs.com/gif.latex?n_1) elements from the first stream and ![equation](https://latex.codecogs.com/gif.latex?n_2) elements from the second stream. Describe a way to combine these two to obtain a sample of size ![equation](https://latex.codecogs.com/gif.latex?n_1) elements from the first stream and ![equation](https://latex.codecogs.com/gif.latex?k), where every element was sampled with probability ![equation](https://latex.codecogs.com/gif.latex?k/(n_1+n_2)).
 
 ### Exercise 5: Extending the majority algorithm
-The majority algorithm reports if an element occurs more than half of the time, but sometimes you want "majority" to mean more than $1/x$ times (for $x>2$).
+The majority algorithm reports if an element occurs more than half of the time, but sometimes you want "majority" to mean more than ![equation](https://latex.codecogs.com/gif.latex?n_1) elements from the first stream and ![equation](https://latex.codecogs.com/gif.latex?1/x) times (for ![equation](https://latex.codecogs.com/gif.latex?n_1) elements from the first stream and ![equation](https://latex.codecogs.com/gif.latex?x>2)).
 
-- Modify the majority algorithm to be able to find if an element occurs more than $1/x$ times. You can start by finding an algorithm for $x=3$ and then try to generalize it afterwards. You don't have to implement your solution, just describe the algorithm.
+- Modify the majority algorithm to be able to find if an element occurs more than ![equation](https://latex.codecogs.com/gif.latex?n_1) elements from the first stream and ![equation](https://latex.codecogs.com/gif.latex?1/x) times. You can start by finding an algorithm for ![equation](https://latex.codecogs.com/gif.latex?n_1) elements from the first stream and ![equation](https://latex.codecogs.com/gif.latex?x=3) and then try to generalize it afterwards. You don't have to implement your solution, just describe the algorithm.
 
-- Suppose you know that the number of distinct elements in the stream is $D$. What happens to the space usage of your algorithm if you set $x=D$?
+- Suppose you know that the number of distinct elements in the stream is ![equation](https://latex.codecogs.com/gif.latex?n_1) elements from the first stream and ![equation](https://latex.codecogs.com/gif.latex?D). What happens to the space usage of your algorithm if you set ![equation](https://latex.codecogs.com/gif.latex?n_1) elements from the first stream and ![equation](https://latex.codecogs.com/gif.latex?x=D)?
 
 ### Exercise 6: Another proof for reservoir sampling
 In the lecture we saw that the probability of element number ![equation](https://latex.codecogs.com/gif.latex?i) being in the reservoir at the end of a stream of length ![equation](https://latex.codecogs.com/gif.latex?m) is
@@ -58,7 +58,7 @@ In the lecture we saw that the probability of element number ![equation](https:/
 
 The fact that the probability is ![equation](https://latex.codecogs.com/gif.latex?\frac%20k%20m) for all ![equation](https://latex.codecogs.com/gif.latex?i) can also be proved by induction. This proof avoids having to simplify a product sequence (which is tedious to type into a calculator, and even more so to solve by hand).
 
-Prove that probability of selecting an element for a sample of size ![equation](https://latex.codecogs.com/gif.latex?k) in a stream of size ![equation](https://latex.codecogs.com/gif.latex?m) is ![equation](https://latex.codecogs.com/gif.latex?\frac%20k%20m).
+Prove that probability of selecting an element for a sample of size ![equation](https://latex.codecogs.com/gif.latex?k) in a stream of size ![equation](https://latex.codecogs.com/gif.latex?m) is ![equation](https://latex.codecogs.com/gif.latex?k/m).
 
 Hint: For the base case, you should assume that ![equation](https://latex.codecogs.com/gif.latex?k=m=1).
 
