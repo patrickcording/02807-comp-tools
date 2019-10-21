@@ -56,7 +56,7 @@ In the lecture we saw that the probability of element number ![equation](https:/
 
 ![equation](https://latex.codecogs.com/gif.latex?P[\text{i%20is%20in%20R}]%20=%20\frac%20k%20i%20\cdot%20\prod_{j=i+1}^m%20(\frac%20k%20j%20\cdot%20\frac{k-1}{k}+%20(1-\frac%20k%20j))%20=%20\frac%20k%20m)
 
-The fact that the probability is ![equation](https://latex.codecogs.com/gif.latex?\frac%20k%20m) for all ![equation](https://latex.codecogs.com/gif.latex?i) can also be proved by induction. This proof avoids having to simplify a product sequence (which is tedious to type into a calculator, and even more so to solve by hand).
+The fact that the probability is ![equation](https://latex.codecogs.com/gif.latex?k/m) for all ![equation](https://latex.codecogs.com/gif.latex?i) can also be proved by induction. This proof avoids having to simplify a product sequence (which is tedious to type into a calculator, and even more so to solve by hand).
 
 Prove that probability of selecting an element for a sample of size ![equation](https://latex.codecogs.com/gif.latex?k) in a stream of size ![equation](https://latex.codecogs.com/gif.latex?m) is ![equation](https://latex.codecogs.com/gif.latex?k/m).
 
