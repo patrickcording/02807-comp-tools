@@ -54,9 +54,7 @@ The majority algorithm reports if an element occurs more than half of the time, 
 ### Exercise 6: Another proof for reservoir sampling
 In the lecture we saw that the probability of element number $i$ being in the reservoir at the end of a stream of length $m$ is
 
-$$
-P[\text{i is in R}] = \frac k i \cdot \prod_{j=i+1}^m (\frac k j \cdot \frac{k-1}{k}+ (1-\frac k j)) = \frac k m
-$$
+<img src="https://latex.codecogs.com/gif.latex?P[\text{i is in R}] = \frac k i \cdot \prod_{j=i+1}^m (\frac k j \cdot \frac{k-1}{k}+ (1-\frac k j)) = \frac k m " />
 
 The fact that the probability is $\frac k m$ for all $i$ can also be proved by induction. This proof avoids having to simplify a product sequence (which is tedious to type into a calculator, and even more so to solve by hand).
 
